@@ -1,0 +1,45 @@
+1. Explique, com suas palavras, o que é machine learning?
+
+Machine learning ou aprendizado de máquina é uma subárea de inteligência artificial que tem como objetivo
+criar sistemas que aprendem apartir de dados.
+Aos invés de programar esses sistemas com regras específicas, são usados algorítmos para treinamento
+de execução de tarefas complexas. 
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em machine learning.
+
+Quando estamos treinando um modelo de ML como por exemplo classificação de imagens ou segmentação de clientes
+dividimos os dados disponíveis em três partes principais: conjunto de treinamento, conjunto de validação
+e conjunto de teste.
+O conjunto de treinamento é o conjunto principal usado para ensinar o modelo a aprender os padrões dos dados.
+Por exemplo, como as variáveis se relacionam com os resultados esperados.
+O conjunto de validação avalia como o modelo está se comportando enquanto é treinado, ou seja se está se adptando
+bem aos dados ou se está decorando os dados(overfitting). Esta "validação" é usada durante o treinamento 
+do modelo e não é usado na base do modelo de treinamento.
+O conjunto de teste é o ultimo conjunto que simula o uso do modelo no contexto real. E serve para avaliar 
+se o modelo aprendeu bem e consegue fazer boas previsões com dados novos.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados
+  de treinamento.
+
+Primeiramente eu buscaria entender por que os dados estão ausentes e investigaria se há erros de coleta
+se tem algum padrão nos dados que estão ausentes.
+Em um segundo momento verificaria se há muitas ou poucas linhas de dados ausentes e se removê-las não 
+afetaria o conjunto de dados. Caso afete, preencheria os dados ausentes com média, mediana ou moda para dados
+numéricos e caso seje categórico preencheria com o valor mais comum.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+Matriz confusão ou matriz erro é uma tabela específica que tem como objetivo permitir a visualização da performance 
+do algoritmo de classificação. Cada linha representa um instância da classse e cada coluna representa a previsão 
+de cada classe.
+Para avaliar o desempenho de um modelo preditivo é calculado métricas de acurácia, precisão e recall e F1-Score que 
+é a média harmonica entre precisão e recall. Para estes calculas é utilizado uma lógica de verdadeiro positivo e negativo
+falso positivo e falso negativo.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de machine
+learning?
+
+Particularmente tenho grande interesse em aplicações na indústria(manutenção preditiva), sáude e agricultura.
